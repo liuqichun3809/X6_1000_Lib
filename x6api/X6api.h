@@ -171,8 +171,8 @@ public:
 	void            set_DacActiveChannel(vector<int> active_channels);
 
     bool            IsStreaming(){  return Timer.Enabled();  }
-	void            write_wishbone_register(uint32_t baseAddr, uint32_t offset, uint32_t data);
-	uint32_t        read_wishbone_register(uint32_t baseAddr, uint32_t offset) const;
+	void            write_wishbone_register(int baseAddr, int offset, int data);
+	int        read_wishbone_register(int baseAddr, int offset) const;
     void            WriteRom();
     void            ReadRom();
     unsigned int     OutputChannels() const {  return 4;  }
