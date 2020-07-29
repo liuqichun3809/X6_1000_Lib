@@ -1,5 +1,5 @@
 # X6_1000_Lib
-generate python api form C++ driver
+generate python api from C++ driver
 
 1. 环境需求：
   1）Innovative Integration的Malibu库；
